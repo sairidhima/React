@@ -22,9 +22,9 @@ class App extends Component {
   return (
     <div className="App">
    
-     {/* <UserProvider value="Ridhi">  */}
+     <UserProvider value='Ridhi'> 
       <ComponentC />
-      {/* </UserProvider> */}
+      </UserProvider>
       {/* <Counter> 
         { (count, incrementCount) => 
         (<ClickCounter2 count={count} incrementCount={incrementCount} />
