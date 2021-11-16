@@ -18,6 +18,9 @@ class App extends Component {
   }
   
   export default App
+
+
+  
   function Item(props) {
     return <li>{props.message}</li>;}
   
@@ -29,15 +32,7 @@ class App extends Component {
     );
   }
 
-  function Item(props) {
-    return <li>{props.message}</li>;}
-
-   function TodoList() {
-     const todos = ['finish doc', 'submitpr', 'nag dan to review'];
-     return (
-       <ul>
-         {todos.map((message) => <Item key={message} message={message} />)}
-       </ul> 
+ 
 // import {ThemeContext, themes} from './theme-context';
 // import ThemedButton from './themed-button';
 
